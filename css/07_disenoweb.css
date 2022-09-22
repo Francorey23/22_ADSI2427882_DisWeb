@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background:#e6e6e6;
+	font: 14px arial;
+}
+
+/*Diseño sin cascada ancho menor a  640px*/
+@media screen and (max-width:640px){
+.contenedor_flex{
+    display: flex;
+    flex-direction: column;
+}
+header{height: 10vh;}
+nav{height: 6vh;}
+.contenedor_central_flex{height: 80vh;}
+footer{height: 4vh;
+}
+main{ /*este tamaño es el total del div para main y aside*/
+    height: 40vh;
+}
+aside{
+    height: 40vh;
+}
+}
+
+/*ancho mayor o igual a 641px y menor a 1024px*/
+@media screen and (min-width:641px) and (max-width:1023px){
+    .contenedor_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor_central_flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+    }
+    header{height: 10vh;}
+    nav{height: 6vh;}
+    .contenedor_central_flex{height: 80vh;}
+    footer{height: 4vh;
+    }
+    main{ /*este tamaño es el total del div para main y aside*/
+        height: 80vh;
+        width: 70vw;
+    }
+    aside{
+        height: 80vh;
+        width: 30vw;
+    }
+    }
+/*ancho mayor o igual a 1024px*/
+@media screen and (min-width:1024px){
+    .contenedor_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor_central_flex{
+        display: flex;
+        flex-direction: row;
+        /*nowrap para que no se desborde el contenido en 
+        pantallas grandes a otra fila*/
+        flex-wrap:nowrap;
+    }
+    header{height: 10vh;}
+    nav{height: 6vh;}
+    .contenedor_central_flex{height: 80vh;}
+    footer{height: 4vh;
+    }
+    main{ /*este tamaño es el total del div para main y aside*/
+        height: 80vh;
+        width: 80vw;
+    }
+    aside{
+        height: 80vh;
+        width: 20vw;
+    }
+    }
+    
+    
+
+header{
+    background-color: lightyellow;
+    
+}
+
+nav{
+    background-color:#528FD5;
+    
+}
+
+/* quitamos los puntos de la lista */
+header nav ul {
+	list-style: none;
+    
+    flex-direction: column;
+}
+
+/*trabajamos los elementos de nav*/
+header nav ul li a{
+	padding:10px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+
+/*cambiamos el color de nav de las pseudoclses opcional*/
+header nav ul li a:hover{
+	background: #75ACEA;
+}
+
+main{
+    background-color: beige;
+    
+}
+aside{
+    background-color: aquamarine;
+}
+footer{
+    background-color: brown;
+}

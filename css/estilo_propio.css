@@ -1,0 +1,32 @@
+h1{
+    color:chocolate;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contenido{
+    color: blue;
+    letter-spacing: initial;
+    text-align: justify;
+    text-decoration: overline;
+}
+.titulo{
+    color: #000;
+	height: 350px;
+	width: 1200px;
+	font: oblique bold 22px "Times new roman";
+	background-image: url("https://i2.wp.com/background4free.com/download/blue_aqua_green_1966995357.jpg");
+}
+.clase1{
+	color:rgb(41,107,204);
+	font-size:28px;
+	font-family: "Comic Sans MS";
+	background-image: url("../imagen/Recovered_JPEG_682.jpg");
+	background-repeat: no-repeat;
+	 background-position: right top;
+
+
+
+}

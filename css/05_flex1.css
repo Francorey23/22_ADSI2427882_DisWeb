@@ -1,0 +1,34 @@
+header{
+    background-color:darkkhaki;
+}
+main{
+    background-color: darkgreen;
+    /*01 cambiamos posicionamiento main por defecto es block a tipo flex*/
+    display: flex;
+    /*02 puede parecer que se convierte en elementos en line para comprobrar que no es asi*/
+    height: 600px;
+    /*ALINEAR EN LA DIRECCION PRINCIPAL
+    03 justify-content con sus propiedades flex-start alineacion al inicio
+    flex-end alineacion al final
+    flex-center al centro */
+    justify-content:space-around;
+    /* 04 ALINEAR DIRECCION SECUNDARIA
+    flex-end alinea al final
+    flex-star alinea al principio*/
+    align-items: center;
+    /*ALINEAR POR COLUMNA
+    column alinea los items por columna */
+    flex-direction: row-reverse;
+    /*05. flex-direction reverse
+    row
+    column*/
+}
+
+section{
+    background-color: chocolate;
+    width: 220px;
+    height: 280px;
+}
+footer{
+    background-color: chartreuse;
+}

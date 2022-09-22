@@ -1,0 +1,23 @@
+header{
+    background-color: darkgoldenrod;
+}
+
+main{
+    background-color: brown;
+    display:flex;
+    height: 250px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+section{
+    background-color:darkgreen ;
+    border: 2px solid red;
+    width: 120px;
+    height: 60px;
+}
+footer{
+    background-color: darkgoldenrod;
+    width: 180px;
+}

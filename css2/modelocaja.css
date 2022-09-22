@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.caja1{
+    background-color: darkcyan;
+    background-image: url(/imagen/Recovered_JPEG_684.jpg);
+    background-size: 250px;
+    border: 2px rgb(238, 125, 11) solid;
+    border-radius: 50% 50%;
+    width: 200px;
+    height: 150px;
+    margin: 15px 35px;
+    padding: 20px 10px;
+    font-family: 'Open Sans';
+    font-style: oblique;
+    font-size: large;
+    font-weight: bold;
+    
+
+}
+
+.caja2{
+    background-color: cornflowerblue;
+    border: 2px rgb(238, 125, 11) solid;
+    border-radius: 50% 50%;
+    width: 200px;
+    height: 200px;
+    margin: 15px 35px;
+    padding: 20px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.caja3{
+    background-color: darkcyan;
+    border: 2px rgb(238, 125, 11) solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 15px 35px;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
