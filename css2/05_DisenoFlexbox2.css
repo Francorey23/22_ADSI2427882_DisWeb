@@ -7,10 +7,13 @@ nav{
     background-color: #C6EBC5;
 }
 main{
-    background-color: #A1C298;
-    height: 260px;
+    background-color: #539f3e;
+    height: 360px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
 }
 section{
     background-color: #FFE9A0;
